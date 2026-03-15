@@ -6,7 +6,7 @@ Demystifier is a modern, terminal-inspired web application designed to clean up 
 
 ## Features
 
-- **Magic Bar**: Tell the Demystifier exactly how you'd like your data transformed.
+- **Smart Bar**: Tell the Demystifier exactly how you'd like your data transformed.
 - **Split-Screen Interface**: Keep your raw "Messy Input" side-by-side with your "Clean Output" for effortless comparison.
 - **Premium UI**: Crafted with a custom "obsidian" dark theme, pulsing terminal green accents, and smooth micro-animations.
 - **One-Click Copy**: Instantly copy your demystified results to your clipboard with clear visual feedback.
