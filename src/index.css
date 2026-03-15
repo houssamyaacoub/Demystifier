@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --color-obsidian: #0f1115;
+  --color-obsidian-light: #16191f;
+  --color-obsidian-dark: #080a0c;
+  --color-terminal-green: #00ff41;
+  --color-terminal-dim: rgba(0, 255, 65, 0.2);
+}
+
+@layer base {
+  body {
+    background-color: var(--color-obsidian);
+    color: #f1f5f9; /* slate-100 */
+    font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  ::selection {
+    background-color: var(--color-terminal-green);
+    color: var(--color-obsidian-dark);
+  }
+}
